@@ -1,33 +1,36 @@
 package LaitaZidan_relasiclass_percobaan2;
 
-public class Mobil {
-
-    private String merk;
+public class Sopir {
+    
+    private String nama;
     private int biaya;
 
-    public Mobil() {
+    public Sopir() {
+    }
+    
+
+
+    public String getNama() {
+        return nama;
     }
 
-    public String getMerk() {
-        return merk;
+
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
-    public void setMerk(String merk) {
-        this.merk = merk;
-    }
 
     public int getBiaya() {
         return biaya;
     }
 
+
     public void setBiaya(int biaya) {
         this.biaya = biaya;
     }
 
-    public int hitungBiayaMobil(int hari){
+    public int hitungBiayaSopir(int hari){
         return biaya * hari;
     }
-
-    
     
 }
