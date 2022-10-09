@@ -5,7 +5,7 @@ public class MainPercobaan1 {
 
         Processor p = new Processor("Intel i5", 3);
 
-        Laptop L = new Laptop("Thinkpad", p);
+        Laptop L = new Laptop("Thinkpad", new Processor("Intel 5", 3));
 
         L.info();
 

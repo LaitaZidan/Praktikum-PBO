@@ -16,5 +16,7 @@ public class MainPercobaan2 {
         p.setHari(2);
         System.out.println("Biaya Total = " + p.hitungBiayaTotal());
         
+        System.out.println("Nama Pelanggan: "+p.getNama() + "\n" + "Nama Sopir: " + p.getSopir().getNama() );
+        
     }
 }
