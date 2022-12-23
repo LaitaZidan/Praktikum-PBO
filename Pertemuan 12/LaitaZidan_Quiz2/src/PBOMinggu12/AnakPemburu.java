@@ -1,3 +1,4 @@
+
 package PBOMinggu12;
 
 public class AnakPemburu extends Pemburu implements IMengambilTelur {
